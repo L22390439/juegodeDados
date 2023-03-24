@@ -1,25 +1,42 @@
 public class Jugada {
-    Jugador jugador1;
-    Jugador jugador2;
-    Dado dado1;
-    Dado dado2;
 
-    //Este método hace la función del constructor
-    public void iniciarJugada(Jugador jugador1, Jugador jugador2, Dado dado1, Dado dado2){
-        this.jugador1 = jugador1;
-        this.jugador2 = jugador2;
-        this.dado1 = dado1;
-        this.dado2 = dado2;
+/*
+    TODO; mover estos atributos a la clase juego
+        Jugador jugador1;
+        Jugador jugador2;
+        Dado dado1;
+        Dado dado2;
+*/
+
+    /**
+     * //Este método hace la función del constructor
+     */
+    public void iniciarJugada(Jugador jugador1, Jugador jugador2, Dado dado1, Dado dado2) {
+        byte puntosJ1, puntosJ2;
+        //Recibir los objetos necesarios para la juego
+        //Lanzar dados por turno
+        puntosJ1 = this.turnarJugador(jugador1, dado1, dado2);
+        puntosJ2 = this.turnarJugador(jugador2, dado1, dado2);
+
+        this.determinarGanador(jugador1, puntosJ1, jugador2, puntosJ2);
     }
 
-    public void determinarGanador(){
-        turnarJugador(this.jugador1);
-        turnarJugador(this.jugador2);
-        //return
+    private byte turnarJugador(Jugador jugadorEnTurno, Dado d1, Dado d2) {
+        return jugadorEnTurno.lanzaDados(d1, d2);
     }
 
-    private void turnarJugador(Jugador jugadorEnTurno){
-        jugadorEnTurno.lanzaDados(this.dado1, this.dado2);
+    public void determinarGanador(Jugador j1, byte pJ1, Jugador j2, byte pJ2) {
+        if (pJ1 == 7) {
+            //se le asigna un pt a jugador 1
+            j1.puntoGanado = 1;
+        } else {
+            j1.puntoGanado = 0;
+        }
+        if (pJ2 == 7) {
+            //se le asigna un pt a jugador 1
+            j2.puntoGanado = 1;
+        } else {
+            j2.puntoGanado = 0;
+        }
     }
-
 }

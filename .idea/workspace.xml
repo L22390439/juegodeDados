@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f34a89-859e-4fbd-b38c-bf7bed8d39a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juegodeDados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jugada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="03f34a89-859e-4fbd-b38c-bf7bed8d39a4" name="Changes" comment="JuegosDados">
+      <change afterPath="$PROJECT_DIR$/src/JuegoDado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jugada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jugada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jugador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +35,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +50,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679424222234</updated>
     </task>
+    <task id="LOCAL-00001" summary="JuegosDados">
+      <created>1679426044560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679426044560</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JuegosDados" />
+    <option name="LAST_COMMIT_MESSAGE" value="JuegosDados" />
   </component>
 </project>

@@ -1,6 +1,13 @@
 public class Jugador {
     public String nombre;
 
+    public byte puntoGanado;
+    /**
+     *
+     * @param dado1 Primer dado a lanzar
+     * @param dado2 Segundo dado a lanzar
+     * @return se devuelven el resultado de suma de los dados
+     */
     public byte lanzaDados(Dado dado1, Dado dado2){
         dado1.lanzar();
         dado2.lanzar();
